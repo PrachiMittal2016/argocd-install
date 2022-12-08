@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   annotations:
@@ -9,7 +9,7 @@ metadata:
   namespace: argocd
 spec:
   rules:
-    - host: argocd.sap.com
+    - host: argocd.com
       http:
         paths:
           - backend:
