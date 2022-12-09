@@ -18,4 +18,4 @@ spec:
     automated:
       selfHeal: true
       prune: true
-  project: demoproject1
+  project: default
