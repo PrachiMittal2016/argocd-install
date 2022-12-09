@@ -17,4 +17,4 @@ spec:
   syncPolicy:
    automated:
      selfHeal: true
-  project: demoproject1
+  project: default
