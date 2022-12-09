@@ -10,7 +10,7 @@ spec:
     server: "https://kubernetes.default.svc"
   source:
     path: overlays/prod/manifests/demo-app
-    repoURL: "https://github.tools.sap/I569818/argocd.git"
+    repoURL: "https://github.com/PrachiMittal2016/argocd-install.git"
     targetRevision: HEAD
     directory:
       recurse: true
