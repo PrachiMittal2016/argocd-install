@@ -10,8 +10,8 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: overlays/prod/app-of-apps
-    repoURL: 'https://github.tools.sap/I569818/argocd.git'
-    targetRevision: master
+    repoURL: 'https://github.com/PrachiMittal2016/argocd-install.git'
+    targetRevision: main
     directory:
      recurse: true
   syncPolicy:
