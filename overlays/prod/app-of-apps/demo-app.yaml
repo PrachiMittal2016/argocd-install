@@ -11,11 +11,11 @@ spec:
   source:
     path: overlays/prod/manifests/demo-app
     repoURL: "https://github.com/PrachiMittal2016/argocd-install.git"
-    targetRevision: HEAD
+    targetRevision: main
     directory:
       recurse: true
   syncPolicy:
     automated:
       selfHeal: true
       prune: true
-  project: default
+  project: demoproject1
