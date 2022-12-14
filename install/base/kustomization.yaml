@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: argocd
 resources:
 - namespace.yaml
-- ./v2.5.4/Non-HA/install.yaml
+- install.yaml
