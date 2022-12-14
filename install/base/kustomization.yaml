@@ -4,3 +4,9 @@ namespace: argocd
 resources:
 - namespace.yaml
 - install.yaml
+
+namespace: argocd
+
+commonLabels:
+  app.kubernetes.io/name: argocd
+  app.kubernetes.io/part-of: argo
