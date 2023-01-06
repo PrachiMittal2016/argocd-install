@@ -56,7 +56,7 @@ metadata:
 spec:
   ingressClassName: nginx-argocd-class
   rules:
-  - host: argocd.cxai.dev.sap
+  - host: <>
     http:
       paths:
       - path: /
@@ -68,7 +68,7 @@ spec:
               name: http
   tls:
   - hosts:
-    - argocd.cxai.dev.sap
+    - <>
     secretName: argocd-server-tls 
 -------
 # Login to ArgoCD:
