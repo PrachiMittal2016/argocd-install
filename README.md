@@ -1,4 +1,4 @@
-# argocd-install
+# ArgoCD Installation
 
 git clone -b prachi https://github.com/PrachiMittal2016/argocd-install.git
 
