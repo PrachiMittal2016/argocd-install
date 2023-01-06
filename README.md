@@ -34,7 +34,7 @@ helm upgrade --install argocd-ingress ingress-nginx/ingress-nginx  --version 4.4
 --namespace argocd \
 --set controller.ingressClassResource.name=nginx-argocd-class \
 --set controller.ingressClass=nginx-argocd-class \
---set controller.ingressClassResource.controllerValue="cxai.dev.sap/argocd-ingress" \
+--set controller.ingressClassResource.controllerValue="<>/argocd-ingress" \
 --set controller.ingressClassResource.enabled=true \
 --set controller.ingressClassByName=true \
 --set controller.service.externalTrafficPolicy=Local
