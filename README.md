@@ -1,8 +1,7 @@
 # argocd-install
 
-kubectl apply -f .\manifests\namespace.yaml
-
-kubectl apply -f .\manifests\install.yaml
+git clone -b prachi 
+kubectl apply -k ./install/.
 
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
 
