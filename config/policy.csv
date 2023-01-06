@@ -1,0 +1,25 @@
+# 1. Applications (which belong to a project):
+# p, <user/group>, <resource>, <action>, <project>/<object>
+# 2. All other resources:
+# p, <user/group>, <resource>, <action>, <object>
+
+
+p, role:operator, applications, create, default/*, allow
+p, role:operator, applications, get, default/*, allow
+p, role:operator, applications, sync, default/*, allow
+p, role:operator, applications, edit, default/*, allow
+p, role:operator, applications, update, default/*, allow
+p, role:operator, applications, delete, default/*, allow
+p, role:operator, applications, override, default/*, allow
+p, role:operator, applications, action/*, default/*, allow
+p, role:operator, repositories, get, *, allow
+p, role:operator, projects, get, *, allow
+p, role:operator, projects, edit, *, allow
+p, role:operator, projects, update, *, allow
+p, role:operator, clusters, get, *, allow
+p, role:operator, clusters, edit, *, allow
+p, role:operator, clusters, update, *, allow
+p, role:operator, certificates, get, *, allow
+p, role:operator, accounts, get, *, allow
+
+p, user3, role:operator
