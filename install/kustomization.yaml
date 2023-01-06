@@ -3,10 +3,4 @@ kind: Kustomization
 namespace: argocd
 resources:
 - namespace.yaml
-- ./Non-HA/v2.5.5/install.yaml
-
-namespace: argocd
-
-commonLabels:
-  app.kubernetes.io/name: argocd
-  app.kubernetes.io/part-of: argo
+- https://raw.githubusercontent.com/argoproj/argo-cd/v2.5.5/manifests/install.yaml
