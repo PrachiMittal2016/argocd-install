@@ -1,0 +1,14 @@
+#Add Git repo to ArgoCD using HTTPS
+apiVersion: v1
+data:
+  password: 
+  project: base64 encoded
+  url: 
+  username: 
+kind: Secret
+metadata:
+  labels:
+    argocd.argoproj.io/secret-type: repository
+  name: argocd-repo
+  namespace: argocd
+type: Opaque
